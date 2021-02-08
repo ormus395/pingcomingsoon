@@ -26,7 +26,7 @@ img {
   width: 100%;
 }
 
-input[type="text"] {
+input[type="email"] {
   border: 1px solid hsl(223, 100%, 88%);
   border-radius: 500px;
   padding: 1rem;
@@ -40,7 +40,7 @@ span {
 
 .logo {
   margin-bottom: 2.5rem;
-  margin-top: 5rem;
+  margin-top: 8.5rem;
   width: 5rem;
 }
 
@@ -60,8 +60,12 @@ span {
   padding: 1rem 3rem;
 }
 
+.hero {
+  max-width: 640px;
+}
+
 .form {
-  margin-bottom: 5rem;
+  margin-bottom: 4.7rem;
   width: 100%;
 }
 
@@ -75,6 +79,22 @@ span {
 
 .hero {
   width: 90%;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.social__items {
+  display: flex;
+}
+
+.social__item {
+  height: 1rem;
+  width: 1rem;
+  margin: 0.5rem;
 }
 
 @media only screen and (min-width: 960px) {
@@ -91,12 +111,16 @@ span {
     flex-direction: row;
   }
 
-  input[type="text"] {
+  input[type="email"] {
     margin: 0 1rem;
     width: 60%;
   }
 
   .btn {
     width: 30%;
+  }
+
+  .logo {
+    margin-top: 4.35rem;
   }
 }
